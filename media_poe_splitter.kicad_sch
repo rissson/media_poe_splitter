@@ -7932,16 +7932,16 @@
 	)
 	(symbol
 		(lib_id "691210910002:691210910002")
-		(at 415.29 382.27 270)
+		(at 415.29 379.73 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7ac3f26-c88e-4eba-927c-537c5ef3912c")
 		(property "Reference" "J1"
-			(at 416.56 380.9999 90)
+			(at 416.56 381.0001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +7950,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 412.7501 384.81 0)
+			(at 412.7501 377.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7960,7 +7960,7 @@
 			)
 		)
 		(property "Footprint" "691210910002:691210910002"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,7 +7970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691210910002.pdf"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7979,7 +7979,7 @@
 			)
 		)
 		(property "Description" "WR-TBL Series 2109 - Rising Cage Clamp - THT - 2.54mm"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7988,7 @@
 			)
 		)
 		(property "Mount" "THT"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +7998,7 @@
 			)
 		)
 		(property "MPN" "691210910002"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8008,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +8018,7 @@
 			)
 		)
 		(property "Manufactuer" ""
-			(at 415.29 382.27 0)
+			(at 415.29 379.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
