@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AG5800")(type "KiCad")(uri "${KIPRJMOD}/libraries/AG5800/AG5800.kicad_sym")(options "")(descr ""))
+  (lib (name "7499811120")(type "KiCad")(uri "${KIPRJMOD}/libraries/7499811120/7499811120.kicad_sym")(options "")(descr ""))
+  (lib (name "RC0805FR-0775RL")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC0805FR-0775RL/RC0805FR-0775RL.kicad_sym")(options "")(descr ""))
+  (lib (name "885342208024")(type "KiCad")(uri "${KIPRJMOD}/libraries/885342208024/885342208024.kicad_sym")(options "")(descr ""))
+  (lib (name "742792096")(type "KiCad")(uri "${KIPRJMOD}/libraries/742792096/742792096.kicad_sym")(options "")(descr ""))
+  (lib (name "885342208020")(type "KiCad")(uri "${KIPRJMOD}/libraries/885342208020/885342208020.kicad_sym")(options "")(descr ""))
+  (lib (name "860020578018")(type "KiCad")(uri "${KIPRJMOD}/libraries/860020578018/860020578018.kicad_sym")(options "")(descr ""))
+  (lib (name "885012209073")(type "KiCad")(uri "${KIPRJMOD}/libraries/885012209073/885012209073.kicad_sym")(options "")(descr ""))
+  (lib (name "744774022")(type "KiCad")(uri "${KIPRJMOD}/libraries/744774022/744774022.kicad_sym")(options "")(descr ""))
+  (lib (name "691210910002")(type "KiCad")(uri "${KIPRJMOD}/libraries/691210910002/691210910002.kicad_sym")(options "")(descr ""))
+)

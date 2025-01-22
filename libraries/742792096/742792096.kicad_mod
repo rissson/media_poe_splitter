@@ -1,0 +1,163 @@
+(footprint "742792096"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WE-CBF SMT EMI Suppression Ferrite Bead</b><br><br>Size: </b>0805, SMT, 2pins<br>L X W X H X FI = 2mm X 1.2mm X 0.9mm X 0.5mm")
+	(property "Reference" "REF**"
+		(at 0 -1.6064 0)
+		(layer "F.SilkS")
+		(uuid "f7b96e1e-8297-42cc-94c2-5169aa377efd")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "742792096"
+		(at 0 1.5936 0)
+		(layer "F.Fab")
+		(uuid "a27fefb9-5945-4bf1-b96a-fb102bdda619")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "941cc48f-83e9-443b-a6ca-bbc0ed877cda")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa879994-81b1-4cb2-9969-0360e8951819")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41049b8c-50e1-4b43-bb55-a08895eddcd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.7)
+		(end 0.3 -0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20228261-694f-4c47-9603-0d4dd2dde339")
+	)
+	(fp_line
+		(start 0.3 0.7)
+		(end -0.3 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad6cd451-c6cc-457e-8aa9-7641eea240e6")
+	)
+	(fp_poly
+		(pts
+			(xy -2.2 -0.9) (xy 2.2 -0.9) (xy 2.2 0.9) (xy -2.2 0.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "a3e07f05-6633-4a85-84ba-decade24190d")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3722e8e-b152-449f-986f-a3526b6cf660")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "454d19ca-8bd8-4fe8-9cb0-799903f00c70")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ac804df-2120-4051-bf4b-4e59bcb9daab")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d503507-f794-4c15-b093-c19928779844")
+	)
+	(pad "1" smd rect
+		(at -1.3 0)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "bd57bf1d-eee6-409e-8e6f-9122add4fe25")
+	)
+	(pad "2" smd rect
+		(at 1.3 0)
+		(size 1.4 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a5ec447d-ac75-4720-8feb-570957c83cc5")
+	)
+	(model "${KIPRJMOD}/libraries/742792096/742792096.step"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
