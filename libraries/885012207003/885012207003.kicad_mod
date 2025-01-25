@@ -1,0 +1,163 @@
+(footprint "885012207003"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WCAP-CSGP MLCCs 0805</b><br>Solder type: Reflow,2 x 1.25x1.25( LxWxH) ;")
+	(property "Reference" "REF**"
+		(at 0 -1.4032 0)
+		(layer "F.SilkS")
+		(uuid "be52144f-d89f-4802-860f-bd5cba3d7af2")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "885012207003"
+		(at 0 1.1968 0)
+		(layer "F.Fab")
+		(uuid "fb577835-37f2-477b-8b30-6facce67503e")
+		(effects
+			(font
+				(size 0.32 0.32)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deefe54e-6784-4eab-bed9-b4e7ccacc3e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ecda16e-d9c8-42b9-b612-e11132e82cf3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "255cc7fc-06f6-4fd1-a9c1-f91224667247")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.725)
+		(end 0.2 -0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee8c8c83-73a9-46f2-a0fb-2d222547b610")
+	)
+	(fp_line
+		(start -0.2 0.725)
+		(end 0.2 0.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80db0277-1345-4503-9b17-71f229c59372")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -0.925) (xy 1.6 -0.925) (xy 1.6 0.925) (xy -1.6 0.925)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "3612a78d-2afb-4823-ac00-9674e0d6732d")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a008aa85-c2bc-4a80-be4d-9606fd27f01e")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9efac4a-ab90-4b55-9ac0-ce8c30aefd5b")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e5d73e4-5497-4da0-a677-0f2003532ad3")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19d07098-b1ab-454c-8e9f-03cfcfec473c")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "527400cb-eda0-4819-ae19-e838f481daf3")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 0.9 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "31dda636-b95b-4d0c-a0c0-802eab585279")
+	)
+	(model "${KIPRJMOD}/libraries/885012207003/885012207003.step"
+		(offset
+			(xyz 0 0 0.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -55,7 +55,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 0)
 			(effects
 				(font

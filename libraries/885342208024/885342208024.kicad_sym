@@ -64,7 +64,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mount" "SMD"
+		(property "Mount" "SMT"
 			(at 0 0 0)
 			(effects
 				(font

@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "RC0805FR-0775RL"
+		(property "Value" "75R"
 			(at 6.35 -3.81 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mount" "SMD"
+		(property "Mount" "SMT"
 			(at 0 0 0)
 			(effects
 				(font
