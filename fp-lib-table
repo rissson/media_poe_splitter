@@ -18,7 +18,6 @@
   (lib (name "824012823")(type "KiCad")(uri "${KIPRJMOD}/libraries/824012823")(options "")(descr ""))
   (lib (name "744232090")(type "KiCad")(uri "${KIPRJMOD}/libraries/744232090")(options "")(descr ""))
   (lib (name "93AA66C-I_SN")(type "KiCad")(uri "${KIPRJMOD}/libraries/93AA66C-I_SN")(options "")(descr ""))
-  (lib (name "VLF302515MT-3R3M")(type "KiCad")(uri "${KIPRJMOD}/libraries/VLF302515MT-3R3M")(options "")(descr ""))
   (lib (name "68710614522")(type "KiCad")(uri "${KIPRJMOD}/libraries/68710614522")(options "")(descr ""))
   (lib (name "U-G-M5WS-W-01")(type "KiCad")(uri "${KIPRJMOD}/libraries/U-G-M5WS-W-01")(options "")(descr ""))
   (lib (name "885012206071")(type "KiCad")(uri "${KIPRJMOD}/libraries/885012206071")(options "")(descr ""))
@@ -33,4 +32,5 @@
   (lib (name "RC0603FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC0603FR-07100KL")(options "")(descr ""))
   (lib (name "RC0603FR-0748K7L")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC0603FR-0748K7L")(options "")(descr ""))
   (lib (name "RC0603FR-0710KL")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC0603FR-0710KL")(options "")(descr ""))
+  (lib (name "VLS3012HBX-3R3M")(type "KiCad")(uri "${KIPRJMOD}/libraries/VLS3012HBX-3R3M")(options "")(descr ""))
 )

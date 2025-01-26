@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "VLF302515MT-3R3M"
+	(symbol "VLS3012HBX-3R3M"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "VLF302515MT-3R3M"
+		(property "Value" "VLS3012HBX-3R3M"
 			(at 6.985 -2.54 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VLF302515MT-3R3M:VLF302515MT-3R3M"
+		(property "Footprint" "VLS3012HBX-3R3M:VLS3012HBX-3R3M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -35,7 +35,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2218/VLF302515MT_Series.pdf"
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012hbx_en.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 3.3UH 2.25A 72MOHM SMD"
+		(property "Description" "FIXED IND 3.3UH 2.63A 150MOHM SM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK Corporation"
+		(property "MPN" "VLS3012HBX-3R3M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VLF302515MT-3R3M"
+		(property "Manufacturer" "TDK Corporation"
 			(at 0 0 0)
 			(effects
 				(font
@@ -81,7 +81,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "VLF302515MT-3R3M"
+		(property "ki_keywords" "VLS3012HBX-3R3M"
 			(at 0 0 0)
 			(effects
 				(font
@@ -90,16 +90,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "VLF302515MT-3R3M"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "VLF302515MT-3R3M_1_1"
+		(symbol "VLS3012HBX-3R3M_1_1"
 			(polyline
 				(pts
 					(xy 2.54 0) (xy 2.54 1.27)
@@ -165,7 +156,7 @@
 				(mid 3.81 2.5344)
 				(end 2.54 1.27)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -177,7 +168,7 @@
 				(mid 6.35 2.5344)
 				(end 5.08 1.27)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -189,7 +180,7 @@
 				(mid 8.89 2.5344)
 				(end 7.62 1.27)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -201,7 +192,7 @@
 				(mid 11.43 2.5344)
 				(end 10.16 1.27)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -245,13 +236,13 @@
 				)
 			)
 		)
-		(symbol "VLF302515MT-3R3M_1_2"
+		(symbol "VLS3012HBX-3R3M_1_2"
 			(arc
 				(start -1.27 5.08)
 				(mid -2.5344 3.81)
 				(end -1.27 2.54)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -263,7 +254,7 @@
 				(mid -2.5344 6.35)
 				(end -1.27 5.08)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -275,7 +266,7 @@
 				(mid -2.5344 8.89)
 				(end -1.27 7.62)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill
@@ -287,7 +278,7 @@
 				(mid -2.5344 11.43)
 				(end -1.27 10.16)
 				(stroke
-					(width 0.254)
+					(width 0.2032)
 					(type default)
 				)
 				(fill

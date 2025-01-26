@@ -13372,7 +13372,7 @@
 				)
 			)
 		)
-		(symbol "VLF302515MT-3R3M:VLF302515MT-3R3M"
+		(symbol "VLS3012HBX-3R3M:VLS3012HBX-3R3M"
 			(pin_names
 				(offset 0.254)
 			)
@@ -13387,7 +13387,7 @@
 					)
 				)
 			)
-			(property "Value" "VLF302515MT-3R3M"
+			(property "Value" "VLS3012HBX-3R3M"
 				(at 6.985 -2.54 0)
 				(effects
 					(font
@@ -13395,7 +13395,7 @@
 					)
 				)
 			)
-			(property "Footprint" "VLF302515MT-3R3M:VLF302515MT-3R3M"
+			(property "Footprint" "VLS3012HBX-3R3M:VLS3012HBX-3R3M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13405,7 +13405,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2218/VLF302515MT_Series.pdf"
+			(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012hbx_en.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13415,7 +13415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "FIXED IND 3.3UH 2.25A 72MOHM SMD"
+			(property "Description" "FIXED IND 3.3UH 2.63A 150MOHM SM"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13424,7 +13424,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "TDK Corporation"
+			(property "MPN" "VLS3012HBX-3R3M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13442,7 +13442,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "VLF302515MT-3R3M"
+			(property "Manufacturer" "TDK Corporation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13451,7 +13451,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "VLF302515MT-3R3M"
+			(property "ki_keywords" "VLS3012HBX-3R3M"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13460,16 +13460,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "VLF302515MT-3R3M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VLF302515MT-3R3M_1_1"
+			(symbol "VLS3012HBX-3R3M_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 2.54 1.27)
@@ -13535,7 +13526,7 @@
 					(mid 3.81 2.5344)
 					(end 2.54 1.27)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13547,7 +13538,7 @@
 					(mid 6.35 2.5344)
 					(end 5.08 1.27)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13559,7 +13550,7 @@
 					(mid 8.89 2.5344)
 					(end 7.62 1.27)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13571,7 +13562,7 @@
 					(mid 11.43 2.5344)
 					(end 10.16 1.27)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13615,13 +13606,13 @@
 					)
 				)
 			)
-			(symbol "VLF302515MT-3R3M_1_2"
+			(symbol "VLS3012HBX-3R3M_1_2"
 				(arc
 					(start -1.27 5.08)
 					(mid -2.5344 3.81)
 					(end -1.27 2.54)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13633,7 +13624,7 @@
 					(mid -2.5344 6.35)
 					(end -1.27 5.08)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13645,7 +13636,7 @@
 					(mid -2.5344 8.89)
 					(end -1.27 7.62)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -13657,7 +13648,7 @@
 					(mid -2.5344 11.43)
 					(end -1.27 10.16)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -19550,103 +19541,6 @@
 			(project "media_poe_splitter"
 				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VLF302515MT-3R3M:VLF302515MT-3R3M")
-		(at 269.24 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b2b71c8-d0ec-46a4-b14e-3d72e86d0702")
-		(property "Reference" "L9"
-			(at 276.86 149.86 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "VLF302515MT-3R3M"
-			(at 276.86 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "VLF302515MT-3R3M:VLF302515MT-3R3M"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2218/VLF302515MT_Series.pdf"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FIXED IND 3.3UH 2.25A 72MOHM SMD"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK Corporation"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mount" "SMT"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "VLF302515MT-3R3M"
-			(at 269.24 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f960bf4-1fb3-4ed7-ab75-b9b878d72513")
-		)
-		(pin "1"
-			(uuid "a8ae5e11-70bb-4e70-8e26-a59cb442b3a4")
-		)
-		(instances
-			(project ""
-				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
-					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -26765,6 +26659,103 @@
 			(project "media_poe_splitter"
 				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VLS3012HBX-3R3M:VLS3012HBX-3R3M")
+		(at 269.24 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a08f3e8-254a-4694-95ae-e7c2e1bbb1e8")
+		(property "Reference" "L9"
+			(at 276.86 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "VLS3012HBX-3R3M"
+			(at 276.86 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VLS3012HBX-3R3M:VLS3012HBX-3R3M"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012hbx_en.pdf"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FIXED IND 3.3UH 2.63A 150MOHM SM"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VLS3012HBX-3R3M"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mount" "SMT"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 269.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54dc1bd1-3143-4d04-b5db-e376b3e13b89")
+		)
+		(pin "1"
+			(uuid "6bca3f6f-d3c6-43ee-9f4d-0c58d46900b4")
+		)
+		(instances
+			(project ""
+				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
+					(reference "L9")
 					(unit 1)
 				)
 			)
