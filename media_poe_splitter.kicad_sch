@@ -13878,126 +13878,6 @@
 				)
 			)
 		)
-		(symbol "power:+24V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+24V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+24V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+24V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+2V5"
 			(power)
 			(pin_numbers hide)
@@ -14852,12 +14732,6 @@
 		(uuid "6f52e98f-ae20-4db9-9973-d8b1de654ed7")
 	)
 	(junction
-		(at 269.24 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "711c0a4a-ea77-45bc-a30e-30839544c48e")
-	)
-	(junction
 		(at 359.41 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15084,12 +14958,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1b5244c-45a1-45de-8a4a-36a825c2b8f1")
-	)
-	(junction
-		(at 269.24 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a17e6d-e8a2-4287-86fd-2bd87dcee849")
 	)
 	(junction
 		(at 314.96 152.4)
@@ -15779,6 +15647,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 218.44) (xy 273.05 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245e4e8f-8fab-4e11-a18f-be80d139a66c")
+	)
+	(wire
+		(pts
 			(xy 247.65 287.02) (xy 250.19 287.02)
 		)
 		(stroke
@@ -16129,16 +16007,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 212.09) (xy 270.51 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bf7608a-98d0-4733-841b-8e43ed134155")
-	)
-	(wire
-		(pts
 			(xy 251.46 219.71) (xy 251.46 217.17)
 		)
 		(stroke
@@ -16189,7 +16057,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 212.09) (xy 269.24 212.09)
+			(xy 250.19 274.32) (xy 250.19 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "407307f1-3c57-4a19-a0c4-8c2dc0216c1c")
+	)
+	(wire
+		(pts
+			(xy 256.54 212.09) (xy 267.97 212.09)
 		)
 		(stroke
 			(width 0)
@@ -16479,16 +16357,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 212.09) (xy 269.24 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff2f1c0-fe79-4bad-8bb8-d9ec888b4485")
-	)
-	(wire
-		(pts
 			(xy 251.46 224.79) (xy 251.46 222.25)
 		)
 		(stroke
@@ -16559,7 +16427,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 229.87) (xy 269.24 229.87)
+			(xy 256.54 229.87) (xy 267.97 229.87)
 		)
 		(stroke
 			(width 0)
@@ -16919,7 +16787,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 229.87) (xy 269.24 222.25)
+			(xy 267.97 214.63) (xy 267.97 218.44)
 		)
 		(stroke
 			(width 0)
@@ -17086,6 +16954,16 @@
 			(type default)
 		)
 		(uuid "7caff619-42d9-43e8-9442-2f44aedf0309")
+	)
+	(wire
+		(pts
+			(xy 267.97 218.44) (xy 273.05 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d3c4ffe-9849-473f-bf11-ac3aed2fb37b")
 	)
 	(wire
 		(pts
@@ -17306,6 +17184,16 @@
 			(type default)
 		)
 		(uuid "88204258-2a02-4d90-b6f0-d59d410d1592")
+	)
+	(wire
+		(pts
+			(xy 273.05 274.32) (xy 250.19 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89be3f2f-5e6f-40e1-936b-0c4adbcc6a11")
 	)
 	(wire
 		(pts
@@ -18319,7 +18207,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 229.87) (xy 269.24 231.14)
+			(xy 267.97 229.87) (xy 267.97 231.14)
 		)
 		(stroke
 			(width 0)
@@ -18816,16 +18704,6 @@
 			(type default)
 		)
 		(uuid "fe564b5b-8497-4abf-9797-af58d6ce7d13")
-	)
-	(wire
-		(pts
-			(xy 247.65 276.86) (xy 250.19 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea75f5f-df42-4323-bf97-22d8223aea9a")
 	)
 	(wire
 		(pts
@@ -22839,7 +22717,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 269.24 231.14 0)
+		(at 267.97 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22848,7 +22726,7 @@
 		(fields_autoplaced yes)
 		(uuid "4448d834-fa42-4247-ad5c-23c94bd69066")
 		(property "Reference" "#PWR01"
-			(at 269.24 237.49 0)
+			(at 267.97 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22857,7 +22735,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 269.24 236.22 0)
+			(at 267.97 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22865,7 +22743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 231.14 0)
+			(at 267.97 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22874,7 +22752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 231.14 0)
+			(at 267.97 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22883,7 +22761,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 269.24 231.14 0)
+			(at 267.97 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23679,73 +23557,6 @@
 			(project "media_poe_splitter"
 				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 247.65 276.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "509dc700-4b7d-4821-aed0-344108504bd7")
-		(property "Reference" "#PWR08"
-			(at 251.46 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 243.84 276.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 247.65 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41b79366-1612-431c-982d-0e527ad28c46")
-		)
-		(instances
-			(project "media_poe_splitter"
-				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -27702,73 +27513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 270.51 212.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3580a42-0843-4098-be1d-03b2f3bc0b4b")
-		(property "Reference" "#PWR02"
-			(at 266.7 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 274.32 212.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 270.51 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14c11527-0d3e-4531-830c-08a6a63c98cc")
-		)
-		(instances
-			(project ""
-				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V2")
 		(at 467.36 119.38 270)
 		(unit 1)
@@ -28176,7 +27920,7 @@
 	)
 	(symbol
 		(lib_id "691210910002:691210910002")
-		(at 274.32 219.71 270)
+		(at 273.05 212.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28185,7 +27929,7 @@
 		(dnp no)
 		(uuid "a7ac3f26-c88e-4eba-927c-537c5ef3912c")
 		(property "Reference" "J1"
-			(at 275.59 220.9801 90)
+			(at 274.32 213.3601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28194,7 +27938,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 271.7801 217.17 0)
+			(at 270.5101 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28204,7 +27948,7 @@
 			)
 		)
 		(property "Footprint" "691210910002:691210910002"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28214,7 +27958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/691210910002.pdf"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28223,7 +27967,7 @@
 			)
 		)
 		(property "Description" "WR-TBL Series 2109 - Rising Cage Clamp - THT - 2.54mm"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28232,7 +27976,7 @@
 			)
 		)
 		(property "Mount" "THT"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28242,7 +27986,7 @@
 			)
 		)
 		(property "MPN" "691210910002"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28252,7 +27996,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 274.32 219.71 0)
+			(at 273.05 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
