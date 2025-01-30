@@ -33133,15 +33133,6 @@
 		(uuid "4d3f4118-dcb1-4f0b-b185-9432b3c3c7be")
 	)
 	(via
-		(at 59 83.3)
-		(size 0.9)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 34)
-		(uuid "c8d509d4-0cb7-4973-bc4c-3504fca1c349")
-	)
-	(via
 		(at 26.765447 59.005447)
 		(size 0.4)
 		(drill 0.2)
