@@ -139,7 +139,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 7.62)
 				(name "CS"
@@ -157,7 +157,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "CLK"
@@ -175,7 +175,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "DI"
@@ -193,7 +193,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "DO"
@@ -211,7 +211,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 55.88 -7.62 180)
 				(length 7.62)
 				(name "VSS"
@@ -229,7 +229,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 55.88 -5.08 180)
 				(length 7.62)
 				(name "ORG"
@@ -247,7 +247,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin no_connect line
 				(at 55.88 -2.54 180)
 				(length 7.62)
 				(name "NC"
@@ -265,7 +265,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 55.88 0 180)
 				(length 7.62)
 				(name "VCC"

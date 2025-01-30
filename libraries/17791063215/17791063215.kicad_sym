@@ -130,7 +130,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "CTRL"
@@ -166,7 +166,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "+VOUT"
@@ -184,7 +184,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "-VOUT"
@@ -202,7 +202,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "FB"

@@ -148,7 +148,7 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 0 0)
 				(length 7.62)
 				(name "G"
@@ -166,7 +166,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 40.64 -2.54 180)
 				(length 7.62)
 				(name "S"
@@ -184,7 +184,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "D"

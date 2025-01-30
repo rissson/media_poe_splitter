@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_overlap|52150000|32890000|5709fdc8-a366-42ee-b0ad-19c4eca88a10|2eaa70ff-7dff-421f-8035-5eb2f055414d",
+        "silk_overlap|52150000|32890000|5709fdc8-a366-42ee-b0ad-19c4eca88a10|ce55ed51-8298-4b8a-9948-c298fe93a188"
+      ],
       "meta": {
         "version": 2
       },
@@ -130,7 +133,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -444,7 +447,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",

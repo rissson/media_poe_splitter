@@ -138,7 +138,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "CTRL"
@@ -174,7 +174,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 7.62 180)
 					(length 2.54)
 					(name "+VOUT"
@@ -192,7 +192,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "-VOUT"
@@ -210,7 +210,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "FB"
@@ -2846,42 +2846,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 22.86 0)
-					(length 5.08)
-					(name "TRCT1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "TRCT3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "TRD4+"
@@ -2910,78 +2874,6 @@
 						)
 					)
 					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "VC12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "VC36"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "VC45"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -12.7 0)
-					(length 5.08)
-					(name "VC78"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3134,24 +3026,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "TRCT4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -17.78 25.4 0)
 					(length 5.08)
 					(name "TRD1+"
@@ -3180,24 +3054,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 15.24 0)
-					(length 5.08)
-					(name "TRCT2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3234,6 +3090,152 @@
 						)
 					)
 					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7499811120_1_0"
+				(pin power_out line
+					(at -17.78 22.86 0)
+					(length 5.08)
+					(name "TRCT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "TRCT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "VC12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "VC36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "VC45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "VC78"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "TRCT4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 15.24 0)
+					(length 5.08)
+					(name "TRCT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9134,7 +9136,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 0 0)
 					(length 7.62)
 					(name "CS"
@@ -9152,7 +9154,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "CLK"
@@ -9170,7 +9172,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -5.08 0)
 					(length 7.62)
 					(name "DI"
@@ -9188,7 +9190,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -7.62 0)
 					(length 7.62)
 					(name "DO"
@@ -9206,7 +9208,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 55.88 -7.62 180)
 					(length 7.62)
 					(name "VSS"
@@ -9224,7 +9226,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 55.88 -5.08 180)
 					(length 7.62)
 					(name "ORG"
@@ -9242,7 +9244,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin no_connect line
 					(at 55.88 -2.54 180)
 					(length 7.62)
 					(name "NC"
@@ -9260,7 +9262,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 55.88 0 180)
 					(length 7.62)
 					(name "VCC"
@@ -9417,42 +9419,6 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 -17.78 180)
-					(length 7.62)
-					(name "VOUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 50.8 -15.24 180)
 					(length 7.62)
@@ -9489,42 +9455,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 50.8 -10.16 180)
-					(length 7.62)
-					(name "VOUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 -7.62 180)
-					(length 7.62)
-					(name "VOUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 50.8 -5.08 180)
 					(length 7.62)
@@ -9554,42 +9484,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "SA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9651,7 +9545,117 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "AG5800_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -17.78 180)
+					(length 7.62)
+					(name "VOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -10.16 180)
+					(length 7.62)
+					(name "VOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 50.8 -7.62 180)
+					(length 7.62)
+					(name "VOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "POH_EN"
@@ -9669,7 +9673,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "VIN-"
@@ -9687,7 +9691,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "VIN+"
@@ -9705,7 +9709,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 50.8 -20.32 180)
 					(length 7.62)
 					(name "VOUT2"
@@ -9871,7 +9875,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 0 0)
 					(length 7.62)
 					(name "G"
@@ -9889,7 +9893,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 40.64 -2.54 180)
 					(length 7.62)
 					(name "S"
@@ -9907,7 +9911,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 40.64 0 180)
 					(length 7.62)
 					(name "D"
@@ -10504,7 +10508,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 0 -43.18 0)
 					(length 7.62)
 					(name "VDD12_SW_OUT"
@@ -11206,7 +11210,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 91.44 -10.16 180)
 					(length 7.62)
 					(name "VDD25_REG_OUT"
@@ -11894,7 +11898,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -11912,7 +11916,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -12016,7 +12020,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 12.7 270)
 					(length 2.54)
 					(name ""
@@ -12034,7 +12038,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
 					(name ""
@@ -13595,7 +13599,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -13613,7 +13617,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -13717,7 +13721,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 12.7 270)
 					(length 2.54)
 					(name ""
@@ -13735,7 +13739,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
 					(name ""
@@ -14512,7 +14516,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 0 180)
 					(length 2.54)
 					(name "1"
@@ -14530,7 +14534,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
 					(name "2"
@@ -14658,7 +14662,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 15.24 270)
 					(length 2.54)
 					(name "1"
@@ -14676,7 +14680,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 90)
 					(length 2.54)
 					(name "2"
@@ -15536,102 +15540,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 359.41 256.54)
@@ -15958,12 +15866,6 @@
 		(uuid "8be12604-8cbf-4591-895e-f254ff302faa")
 	)
 	(junction
-		(at 311.15 276.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d79b19c-bb26-4179-b14e-5e0cf0e2a4c3")
-	)
-	(junction
 		(at 100.33 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16258,10 +16160,6 @@
 		(uuid "5c5ab57d-59c8-4146-939e-53a1c2fd496a")
 	)
 	(no_connect
-		(at 236.22 162.56)
-		(uuid "61829843-548a-4bc6-b7a8-f9d3b97af8e6")
-	)
-	(no_connect
 		(at 140.97 232.41)
 		(uuid "6484c9e6-4697-4568-b7e3-003e2ebecbbc")
 	)
@@ -16296,10 +16194,6 @@
 	(no_connect
 		(at 464.82 154.94)
 		(uuid "b20a222b-1272-4476-a7d6-7cc8aa9b5f6a")
-	)
-	(no_connect
-		(at 289.56 294.64)
-		(uuid "b431738c-8383-4cdd-bf57-b129625eef3e")
 	)
 	(no_connect
 		(at 457.2 201.93)
@@ -17069,16 +16963,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 276.86) (xy 330.2 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333d4d2c-f6ec-431c-8e57-be27126f5cf6")
-	)
-	(wire
-		(pts
 			(xy 323.85 149.86) (xy 341.63 149.86)
 		)
 		(stroke
@@ -17129,7 +17013,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 276.86) (xy 311.15 276.86)
+			(xy 308.61 276.86) (xy 330.2 276.86)
 		)
 		(stroke
 			(width 0)
@@ -17216,16 +17100,6 @@
 			(type default)
 		)
 		(uuid "37f81b76-9129-4a3c-9282-b451b501f6aa")
-	)
-	(wire
-		(pts
-			(xy 311.15 274.32) (xy 311.15 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38582020-eb19-4ab7-b6ee-d8cc3484cf8a")
 	)
 	(wire
 		(pts
@@ -19916,16 +19790,6 @@
 			(type default)
 		)
 		(uuid "fa15ebd7-842a-4719-8463-46902f5e34b9")
-	)
-	(wire
-		(pts
-			(xy 193.04 209.55) (xy 193.04 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa22b1b6-5e01-4270-a8ba-ea78981c90e4")
 	)
 	(wire
 		(pts
@@ -24708,72 +24572,6 @@
 			(project ""
 				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 193.04 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a1fba0c-14b2-4f08-b8dd-4fe6ca42daaa")
-		(property "Reference" "#FLG01"
-			(at 193.04 207.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba6ea4a7-cabc-400f-8a28-334b664d3974")
-		)
-		(instances
-			(project ""
-				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -30718,72 +30516,6 @@
 			(project "media_poe_splitter"
 				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 311.15 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfd670e5-a3c9-4d9a-95d0-0608ad8a8948")
-		(property "Reference" "#FLG02"
-			(at 311.15 272.415 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 311.15 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2389ef52-27da-48d6-a996-db0bff076b31")
-		)
-		(instances
-			(project ""
-				(path "/6322d6ab-712b-4593-ad2b-135ce593cd38"
-					(reference "#FLG02")
 					(unit 1)
 				)
 			)

@@ -301,7 +301,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 0 -43.18 0)
 				(length 7.62)
 				(name "VDD12_SW_OUT"
@@ -1003,7 +1003,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_out line
 				(at 91.44 -10.16 180)
 				(length 7.62)
 				(name "VDD25_REG_OUT"
