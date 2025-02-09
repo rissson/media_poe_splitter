@@ -37,4 +37,5 @@
   (lib (name "RC1206FR-07100KL")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC1206FR-07100KL")(options "")(descr ""))
   (lib (name "61300211121")(type "KiCad")(uri "${KIPRJMOD}/libraries/61300211121")(options "")(descr ""))
   (lib (name "RC1206FR-071KL")(type "KiCad")(uri "${KIPRJMOD}/libraries/RC1206FR-071KL")(options "")(descr ""))
+  (lib (name "logos")(type "KiCad")(uri "${KIPRJMOD}/libraries/logos")(options "")(descr ""))
 )

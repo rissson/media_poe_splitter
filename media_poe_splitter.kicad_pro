@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_overlap|52150000|32890000|5709fdc8-a366-42ee-b0ad-19c4eca88a10|2eaa70ff-7dff-421f-8035-5eb2f055414d",
-        "silk_overlap|52150000|32890000|5709fdc8-a366-42ee-b0ad-19c4eca88a10|ce55ed51-8298-4b8a-9948-c298fe93a188"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -247,7 +244,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1917700|2120900|0ee4a57a-b503-41d8-a069-7a57129f3abf|03817532-1351-4bba-8ce3-eac42d3eafbf|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2171700|a5bff277-6c07-4507-b892-efd1b25d22b9|0c99c1ac-9e68-4425-8a10-a6b22320087a|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2171700|a5bff277-6c07-4507-b892-efd1b25d22b9|6040ea37-a3fa-4a4e-8a29-0238950703aa|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2171700|a5bff277-6c07-4507-b892-efd1b25d22b9|608d0fd8-b553-42eb-ad70-f79475a5e70e|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2197100|608d0fd8-b553-42eb-ad70-f79475a5e70e|0c99c1ac-9e68-4425-8a10-a6b22320087a|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2197100|608d0fd8-b553-42eb-ad70-f79475a5e70e|6040ea37-a3fa-4a4e-8a29-0238950703aa|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2222500|0c99c1ac-9e68-4425-8a10-a6b22320087a|6040ea37-a3fa-4a4e-8a29-0238950703aa|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38",
+      "pin_to_pin|1917700|2273300|2e7fecf6-2960-4fe2-9e61-ccb7de03e997|40d8a3f1-78a9-4d32-9021-3705c64f0706|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38|/6322d6ab-712b-4593-ad2b-135ce593cd38"
+    ],
     "meta": {
       "version": 0
     },
@@ -571,7 +577,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
